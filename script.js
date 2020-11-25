@@ -53,7 +53,7 @@ async function predict() {
 
     const data = {
       case: '이것은 케이스입니다',
-      none: 'none에 대한 설명을 적어볼까요?',
+      none: '아무것도 없습니다',
     };
 
     if (probability >= 75) {
