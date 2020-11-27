@@ -52,8 +52,13 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      case: '이것은 케이스입니다',
-      none: '아무것도 없습니다',
+      hundredwon: '백원,이순신',
+      fivehundredwon: '오백원,학',
+      fiftywon: '오십원,벼',
+      thousandwon: '천원,이황',
+      fivethousandwon: '오천원,이이',
+      tenthousandwon: '만원,세종대왕',
+      fiftythousandwon: '오만원,신사임당',
     };
 
     if (probability >= 75) {
