@@ -40,13 +40,13 @@ body {
 .name {
   text-align: center;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 .percent {
   text-align: center;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .description {
