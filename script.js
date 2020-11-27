@@ -64,7 +64,7 @@ async function predict() {
       tendollar: '명칭:십달러,인물:알렉산더해밀턴,사용국가:미국',
     };
 
-    if (probability >= 75) {
+    if (probability >= 65) {
       if (name.innerHTML !== className) {
         name.innerHTML = className;
         description.innerHTML = data[className];
