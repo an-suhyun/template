@@ -52,13 +52,13 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      hundredwon: '백원,이순신',
-      fivehundredwon: '오백원,학',
-      fiftywon: '오십원,벼',
-      thousandwon: '천원,이황',
-      fivethousandwon: '오천원,이이',
-      tenthousandwon: '만원,세종대왕',
-      fiftythousandwon: '오만원,신사임당',
+      hundredwon: '명칭:백원,인물:이순신,사용국가:대한민국',
+      fivehundredwon: '명칭:오백원,사물:학,사용국가:대한민국',
+      fiftywon: '명칭:오십원,사물:벼,사용국가:대한민국',
+      thousandwon: '명칭:천원,인물:이황,사용국가:대한민국',
+      fivethousandwon: '명칭:오천원,인물:이이,사용국가:대한민국',
+      tenthousandwon: '명칭:만원,인물:세종대왕,사용국가:대한민국',
+      fiftythousandwon: '명칭:오만원,인물:신사임당,사용국가:대한민국',
     };
 
     if (probability >= 75) {
