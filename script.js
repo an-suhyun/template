@@ -63,7 +63,7 @@ async function predict() {
       None: 'There is nothing.'
     };
 
-    if (probability >= 80) {
+    if (probability >= 75) {
       if (name.innerHTML !== className) {
         name.innerHTML = className;
         description.innerHTML = data[className];
