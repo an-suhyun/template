@@ -62,6 +62,7 @@ async function predict() {
       onedollar: 'one dollar, U.S.',
       fivedollar: 'five dollar, U.S.',
       tendollar: 'ten dollar, U.S.',
+      None: 'There is nothing.'
     };
 
     if (probability >= 80) {
