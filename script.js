@@ -52,16 +52,16 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      hundredwon: '명칭:백원,인물:이순신,사용국가:대한민국',
-      fivehundredwon: '명칭:오백원,사물:학,사용국가:대한민국',
-      fiftywon: '명칭:오십원,사물:벼,사용국가:대한민국',
-      thousandwon: '명칭:천원,인물:이황,사용국가:대한민국',
-      fivethousandwon: '명칭:오천원,인물:이이,사용국가:대한민국',
-      tenthousandwon: '명칭:만원,인물:세종대왕,사용국가:대한민국',
-      fiftythousandwon: '명칭:오만원,인물:신사임당,사용국가:대한민국',
-      onedollar: '명칭:일달러,인물:조지워싱턴,사용국가:미국',
-      fivedollar: '명칭:오달러,인물:아브라함링컨,사용국가:미국',
-      tendollar: '명칭:십달러,인물:알렉산더해밀턴,사용국가:미국',
+      hundredwon: '100 won, South Korea',
+      fivehundredwon: '500 won, South Korea',
+      fiftywon: '50 won, South Korea',
+      thousandwon: '1000 won, South Korea',
+      fivethousandwon: '5000 won, South Korea',
+      tenthousandwon: '10000 won, South Korea',
+      fiftythousandwon: '50000 won, South Korea',
+      onedollar: 'one dollar, U.S.',
+      fivedollar: 'five dollar, U.S.',
+      tendollar: 'ten dollar, U.S.',
     };
 
     if (probability >= 80) {
