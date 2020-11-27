@@ -59,6 +59,8 @@ async function predict() {
       fivethousandwon: '명칭:오천원,인물:이이,사용국가:대한민국',
       tenthousandwon: '명칭:만원,인물:세종대왕,사용국가:대한민국',
       fiftythousandwon: '명칭:오만원,인물:신사임당,사용국가:대한민국',
+      onedollar: '명칭:일달러,인물:조지워싱턴,사용국가:미국',
+      fivedollar: '명칭:오달러,인물:아브라함링컨,사용국가:미국',
     };
 
     if (probability >= 75) {
